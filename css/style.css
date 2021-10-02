@@ -4,16 +4,20 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    background-color: #F7F7F7;
 }
 
 
 /* ----  config globais ---- */
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
     padding: 20px;
 }
+
+
+/* Menu estilos */
 
 .navbar {
     display: flex;
@@ -26,10 +30,105 @@
     list-style-type: none;
 }
 
+
+/* Menus  */
+
 .nav-links a {
     display: flex;
     margin: 20px;
     text-decoration: none;
     color: #262626;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 12px 20px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.img-btn {
+    margin-left: 10px;
+}
+
+.btn {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 12px 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover,
+a::after {
+    color: #4557F6;
+}
+
+.home {
+    padding: 120px;
+}
+
+.titulo-home {
+    font-size: 3.8rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.home span {
+    color: #4557F6;
+    font-weight: 500;
+}
+
+.btn2 {
+    margin: 30px auto;
+    min-width: 200px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #4557F6;
+    box-shadow: 0 5px #4433ff;
+}
+
+.btn2:hover {
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+}
+
+.btn2:active {
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
+}
+
+.btn3 {
+    margin: 30px auto;
+    min-width: 200px;
+    height: 40px;
+    color: #262626;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #cac8c8;
+    box-shadow: 0 5px #F7F7F7;
+}
+
+.btn3:hover {
+    box-shadow: 0 3px #262626;
+    top: 1px;
+}
+
+.btn3:active {
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
 }
