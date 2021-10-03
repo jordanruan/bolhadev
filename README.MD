@@ -1,17 +1,17 @@
 <h1 align="center">Bolha Dev 💧</h1>
 <h3 align="center">Landing page de plataforma educacional que fornece cursos onlines de tecnologia gratuitos.</h3>
 
-<p align="center"><a href="https://jordanruan.github.io/selfcare/" >Finalizado 🚀</a><p>
+<p align="center"><a href="https://jordanruan.github.io/bolhadev/" >Finalizado 🚀</a><p>
 
 ![banner](https://github.com/jordanruan/bolhadev/blob/master/assets/mockup%20desktop.png?raw=true)
 
 ---
 
-## DevChallenge 💡
+## SoulCode Challenge 💡
 
-Desafio de Front-End proposto pelo Dev Challenge, site para desenvolvedores melhorarem suas habilidades.
+Desafio de HTML & CSS proposto pela <strong>Soul Code</strong>, EDTECH brasileira com inclusão social.
 
-- <a href="https://devchallenge.com.br/challenges/5ec9a7fc10e94a38493d3910/details">DevChallenge</a>
+- <a href="https://soulcodeacademy.org/">SOUL CODE</a>
 
 ## Techs 🛠
 
