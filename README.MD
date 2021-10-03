@@ -11,7 +11,7 @@
 
 Desafio de HTML & CSS proposto pela <strong>Soul Code</strong>, EDTECH brasileira com inclusão social.
 
-- <a href="https://soulcodeacademy.org/">SOUL CODE</a>
+- <a href="https://soulcodeacademy.org/">SoulCode</a>
 
 ## Techs 🛠
 
