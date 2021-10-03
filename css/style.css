@@ -188,7 +188,7 @@ a::after {
 /* cards images */
 
 .cards .img-card-1 {
-    background-image: url(/assets/html.png);
+    background-image: url(https://github.com/jordanruan/bolhadev/blob/master/assets/html.png?raw=true);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
