@@ -1,0 +1,144 @@
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        margin: 0;
+    }
+    .btn li {
+        display: none;
+    }
+}
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) {
+    .home {
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn2 {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .titulo-home {
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 0;
+        width: 70%;
+        margin: auto;
+    }
+    .text-home p {
+        text-align: center;
+        width: 78%;
+        margin: auto;
+        padding: 30px;
+    }
+}
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .home {
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn2 {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .titulo-home {
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 0;
+    }
+    .text-home p {
+        text-align: center;
+    }
+}
+
+
+/* Large desktop */
+
+@media (max-width: 553px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    article .desc {
+        display: block;
+    }
+    footer ul {
+        justify-content: center;
+    }
+    .logo-bolha {
+        padding-bottom: 30px;
+    }
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+
+
+/* No media query since this is the default in Bootstrap /  Small devices (tablets, 768px and up) */
+
+@media (min-width: 683px) {
+    article .desc {
+        display: block;
+    }
+    footer ul {
+        justify-content: center;
+    }
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (max-width: 360px) {
+    .img-btn {
+        display: none;
+    }
+    .titulo-home {
+        width: 78%;
+        margin: auto;
+    }
+    .lisa {
+        width: 310px;
+        height: 287px;
+    }
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (max-width: 380px) {
+    .lisa {
+        width: 310px;
+        height: 287px;
+    }
+}
+
+@media (max-width: 890px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    article .desc {
+        display: block;
+    }
+    footer ul {
+        justify-content: center;
+    }
+    .logo-bolha {
+        padding-bottom: 30px;
+    }
+}

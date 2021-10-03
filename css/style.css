@@ -4,6 +4,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 
@@ -166,7 +168,6 @@ a::after {
 }
 
 .cards-todos {
-    width: 85%;
     margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -181,7 +182,6 @@ a::after {
 
 .img-section {
     height: 225px;
-    background-color: red;
 }
 
 
@@ -246,17 +246,32 @@ a::after {
     font-size: 15px;
 }
 
-.content a {
-    text-decoration: none;
-    font-size: 17px;
+.content .button {
+    margin: 30px auto;
+    min-width: 200px;
     color: #fff;
-    letter-spacing: 1.5px;
+    padding: 12px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
     display: inline-block;
-    background: #4433ff;
-    padding: 8px 15px;
-    border-radius: 10px;
-    font-weight: 600;
-    margin-top: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #4557F6;
+    box-shadow: 0 5px #4433ff;
+    text-decoration: none;
+}
+
+.button:hover {
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+}
+
+.button:active {
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
 }
 
 .cursos-text {
@@ -319,7 +334,7 @@ footer .feather {
 
 .user-detalhes input {
     height: 48px;
-    width: 100%;
+    width: 96%;
     padding: 12px 16px;
     font-size: 14px;
     border-radius: 5px;
@@ -331,7 +346,7 @@ footer .feather {
 
 .btn-entrar {
     height: 48px;
-    width: 100%;
+    width: 96%;
     padding: 12px 16px;
     font-size: 14px;
     border-radius: 5px;
@@ -341,10 +356,71 @@ footer .feather {
     margin: 5px;
     color: #fff;
     cursor: pointer;
+}
+
+.btn-limpar {
+    height: 48px;
+    width: 96%;
+    padding: 12px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    outline: none;
+    margin: 5px;
+    color: #161616;
+    cursor: pointer;
     margin-bottom: 30px;
+}
+
+.btn-limpar:hover {
+    background-color: #cfcaca;
+}
+
+.btn-entrar:hover {
+    background-color: #4433ff;
 }
 
 .esqueci-senha {
     color: #161616;
     margin-left: 10px;
+    font-size: 14px
+}
+
+.cadastrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.data-desc {
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+.input-box .input-mensagem {
+    height: 100px;
+    font-weight: 400;
+}
+
+.sobre-todos {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre-cards h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sobre-cards {
+    margin-top: 80px;
+    text-align: center;
+    letter-spacing: 1.2px;
+}
+
+.sobre {
+    max-width: 1200px;
+    margin: 30px auto;
+    margin-bottom: 200px;
 }
