@@ -16,7 +16,7 @@
 }
 
 .container2 {
-    max-width: 1000px;
+    max-width: 1400px;
     margin: auto;
     padding: 50px;
 }
@@ -314,11 +314,12 @@ footer .feather {
 
 .titulo2-cadastro {
     color: #1729cc;
+    text-align: center;
 }
 
 .user-detalhes input {
     height: 48px;
-    width: 50%;
+    width: 100%;
     padding: 12px 16px;
     font-size: 14px;
     border-radius: 5px;
@@ -330,7 +331,7 @@ footer .feather {
 
 .btn-entrar {
     height: 48px;
-    width: 50%;
+    width: 100%;
     padding: 12px 16px;
     font-size: 14px;
     border-radius: 5px;
@@ -340,4 +341,10 @@ footer .feather {
     margin: 5px;
     color: #fff;
     cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.esqueci-senha {
+    color: #161616;
+    margin-left: 10px;
 }
