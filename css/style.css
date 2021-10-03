@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    background-color: #F7F7F7;
 }
 
 
@@ -42,12 +41,15 @@
     font-size: 1rem;
     padding: 12px 20px;
     line-height: 1.4;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .img-btn {
     margin-left: 10px;
 }
+
+
+/* Btn menu */
 
 .btn {
     background-color: #fff;
@@ -62,20 +64,28 @@ a::after {
     color: #4557F6;
 }
 
+
+/* Home text */
+
 .home {
-    padding: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
 }
 
 .titulo-home {
     font-size: 3.8rem;
     line-height: 1.5;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .home span {
     color: #4557F6;
     font-weight: 500;
 }
+
+
+/* Btn Home */
 
 .btn2 {
     margin: 30px auto;
@@ -105,30 +115,178 @@ a::after {
     top: 5px;
 }
 
-.btn3 {
-    margin: 30px auto;
-    min-width: 200px;
-    height: 40px;
-    color: #262626;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
+.text-home {
+    width: 70vh;
+}
+
+.text-home p {
+    line-height: 1.8;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+
+/* Img Home */
+
+.lisa {
+    width: 390px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #262626;
+}
+
+.scroll-img {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+/* Cards Cursos */
+
+.cursos {
+    height: 100vh;
+}
+
+.cursos h2 {
+    font-size: 2rem;
+}
+
+
+/*  container cursos cards items */
+
+.curso {
+    height: 100vh;
+}
+
+.cards-todos {
+    width: 85%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 25px;
+    padding-bottom: 150px;
+}
+
+.cards {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.img-section {
+    height: 225px;
+    background-color: red;
+}
+
+
+/* cards images */
+
+.cards .img-card-1 {
+    background-image: url('/assets/html.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-card-2 {
+    background-image: url('/assets/css.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-card-3 {
+    background-image: url('/assets/js.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-card-4 {
+    background-image: url('/assets/jquery.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-card-5 {
+    background-image: url('/assets/bootstrap-social.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-card-6 {
+    background-image: url('/assets/nodejs.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* texto de cards */
+
+.content {
+    padding: 40px 10px;
+    text-align: center;
+}
+
+.content h2 {
+    letter-spacing: 1.5px;
+}
+
+.content p {
+    margin: 15px auto;
+    font-size: 15px;
+}
+
+.content a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 1.5px;
     display: inline-block;
-    outline: none;
-    border-radius: 5px;
-    border: none;
-    background: #cac8c8;
-    box-shadow: 0 5px #F7F7F7;
+    background: #4433ff;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top: 20px;
 }
 
-.btn3:hover {
-    box-shadow: 0 3px #262626;
-    top: 1px;
+.cursos-text {
+    font-size: 2rem;
+    text-align: center;
 }
 
-.btn3:active {
-    box-shadow: 0 0 #4433ff;
-    top: 5px;
+footer {
+    width: 100%;
+    background-color: #cfcaca;
+    padding: 20px 0;
+}
+
+footer .desc {
+    color: #262626;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 20px 0;
+    font-weight: 500;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer .feather {
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    stroke: #1729cc;
+    margin-right: 16px;
 }
