@@ -83,6 +83,7 @@ a::after {
 
 .titulo-home {
     font-size: 3rem;
+    /* alterei -8rem */
     line-height: 1.5;
     font-weight: bold;
 }
@@ -139,8 +140,8 @@ a::after {
 
 /* Img Home */
 
-.lisa {
-    width: 390px;
+.atriz-lisa {
+    width: 380px;
     height: 350px;
     object-fit: cover;
     border-radius: 10px;
