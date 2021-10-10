@@ -409,7 +409,7 @@ footer .feather {
 
 .sobre-todos {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .sobre-cards h1 {
@@ -421,10 +421,27 @@ footer .feather {
     margin-top: 80px;
     text-align: center;
     letter-spacing: 1.2px;
+    margin: 30px;
 }
 
 .sobre {
     max-width: 1200px;
-    margin: 30px auto;
+    margin: 280px auto;
     margin-bottom: 200px;
+}
+
+
+/* Sobre */
+
+.desc {
+    margin-top: 50px;
+}
+
+.quem {
+    padding: 120px 0;
+}
+
+.conteudo-sobre {
+    padding: 80px 0;
+    text-align: justify;
 }
