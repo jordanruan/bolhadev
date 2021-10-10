@@ -82,7 +82,7 @@ a::after {
 }
 
 .titulo-home {
-    font-size: 3.8rem;
+    font-size: 3rem;
     line-height: 1.5;
     font-weight: bold;
 }
@@ -105,7 +105,6 @@ a::after {
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
-    display: inline-block;
     outline: none;
     border-radius: 5px;
     border: none;
@@ -131,6 +130,10 @@ a::after {
     line-height: 1.8;
     letter-spacing: 2px;
     margin-top: 20px;
+}
+
+.text-home a {
+    text-decoration: none;
 }
 
 
