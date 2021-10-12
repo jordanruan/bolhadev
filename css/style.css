@@ -426,22 +426,18 @@ footer .feather {
 
 .sobre {
     max-width: 1200px;
-    margin: 280px auto;
+    margin: 250px auto;
     margin-bottom: 200px;
 }
 
 
 /* Sobre */
 
-.desc {
-    margin-top: 50px;
-}
-
 .quem {
-    padding: 120px 0;
+    padding: 10px 0;
 }
 
 .conteudo-sobre {
-    padding: 80px 0;
+    padding: 40px 0;
     text-align: justify;
 }

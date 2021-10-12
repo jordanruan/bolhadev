@@ -10,6 +10,10 @@
     .btn li {
         display: none;
     }
+    .conteudo-sobre {
+        font-size: 15px;
+        margin: 30px;
+    }
 }
 
 
@@ -114,6 +118,13 @@
     .atriz-lisa {
         width: 390px;
         height: 287px;
+    }
+    .sobre-todos {
+        flex-wrap: wrap;
+    }
+    .conteudo-sobre {
+        font-size: 15px;
+        margin: 30px;
     }
 }
 
