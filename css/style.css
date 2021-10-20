@@ -316,6 +316,9 @@ footer .feather {
     margin-right: 16px;
 }
 
+
+/* --------Cadastro ------  */
+
 .titulo-cadastro {
     margin: 40px 0 0 30px;
 }
@@ -407,6 +410,9 @@ footer .feather {
     font-weight: 400;
 }
 
+
+/*  Sobre */
+
 .sobre-todos {
     display: flex;
     flex-direction: row;
@@ -430,6 +436,13 @@ footer .feather {
     margin-bottom: 200px;
 }
 
+.titulo-sobre {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
 
 /* Sobre */
 
@@ -438,6 +451,6 @@ footer .feather {
 }
 
 .conteudo-sobre {
-    padding: 40px 0;
+    padding: 80px;
     text-align: justify;
 }
