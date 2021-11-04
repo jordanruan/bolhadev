@@ -164,6 +164,10 @@ a::after {
     font-size: 2rem;
 }
 
+.btn5 {
+    margin-top: 15px;
+}
+
 
 /*  container cursos cards items */
 
@@ -189,98 +193,12 @@ a::after {
 }
 
 
-/* cards images */
-
-.cards .img-card-1 {
-    background-image: url(../assets/html.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.cards .img-card-2 {
-    background-image: url(../assets/css.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.cards .img-card-3 {
-    background-image: url(../assets/js.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.cards .img-card-4 {
-    background-image: url(../assets/jquery.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.cards .img-card-5 {
-    background-image: url(../assets/bootstrap-social.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.cards .img-card-6 {
-    background-image: url(../assets/nodejs.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-/* texto de cards */
-
-.content {
-    padding: 40px 10px;
-    text-align: center;
-}
-
-.content h2 {
-    letter-spacing: 1.5px;
-}
-
-.content p {
-    margin: 15px auto;
-    font-size: 15px;
-}
-
-.content .button {
-    margin: 30px auto;
-    min-width: 200px;
-    color: #fff;
-    padding: 12px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    border-radius: 5px;
-    border: none;
-    background: #4557F6;
-    box-shadow: 0 5px #4433ff;
-    text-decoration: none;
-}
-
-.button:hover {
-    box-shadow: 0 3px #4433ff;
-    top: 1px;
-}
-
-.button:active {
-    box-shadow: 0 0 #4433ff;
-    top: 5px;
-}
+/* Texto card */
 
 .cursos-text {
     font-size: 2rem;
     text-align: center;
+    padding: 120px;
 }
 
 footer {
